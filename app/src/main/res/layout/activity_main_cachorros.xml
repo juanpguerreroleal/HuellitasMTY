@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main_cachorros"
+    android:paddingTop="20dp"
+    android:paddingBottom="30dp"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        >
+
+        <com.github.snowdream.android.widget.SmartImageView
+            android:id="@+id/imagenP"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingLeft="5dp"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="textEnd"
+                android:textSize="24dp"
+                android:textColor="#000"
+                tools:ignore="RtlCompat" />
+            <TextView
+                android:id="@+id/tvdescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,764 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d68e1a"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:gravity="end"
+    tools:context=".Formulario"
+    tools:ignore="MissingPrefix"
+    android:paddingBottom="35dp"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/formularioAdop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff872b"
+                android:text="@string/formulario_de_adopci_n"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Nombre de la mascota"
+                android:inputType="textPersonName"
+                android:id="@+id/d1"
+                />
+
+            <TextView
+                android:id="@+id/contact_form_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff872b"
+                android:text="Datos del Adoptante"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Nombre completo"
+                android:inputType="textPersonName"
+                android:id="@+id/d2"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Dirección"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d3"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:id="@+id/d4"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Numero interior o exterior"
+                android:inputType="phone"
+                android:id="@+id/d5"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Telefóno Celular"
+                android:inputType="phone"
+                android:id="@+id/d6"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Estado"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d7"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Colonia"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d8"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Ciudad"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d9"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Telefóno Casa"
+                android:inputType="phone"
+                android:id="@+id/d10"
+                />
+
+            <TextView
+                android:id="@+id/contact_dir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff872b"
+                android:text="Dirección"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Calle (avenida o privada)"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d11"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Número interior o exterior"
+                android:inputType="phone"
+                android:id="@+id/d12"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint=" Colonia o Fraccionamiento)"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d13"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint=" Entre calle"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d14"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Y calle"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d15"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint=" Ciudad (Ingresa ciudad o municipio)"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d16"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Estado"
+                android:inputType="textPostalAddress"
+                android:id="@+id/d17"
+                />
+
+            <TextView
+                android:id="@+id/contact_enc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff872b"
+                android:text="Encuesta"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="¿Por qué deseas adoptar un perro o un gato?"
+                android:inputType="textPostalAddress"
+                android:textSize="17.8sp"
+                android:id="@+id/d18"
+                />
+
+            <TextView
+                android:id="@+id/contact_manut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Persona encargada de la manutención"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yo"
+                    android:id="@+id/d19_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:text="Padres"
+                    android:id="@+id/d19_2"
+                    />
+
+                <CheckBox
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amigo"
+                    android:id="@+id/d19_3"
+                    />
+
+                <CheckBox
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:id="@+id/d19_4"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/anter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Anteriormente has tenido perros o gatos?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d20_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d20_2"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/encant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Actualmente cuentas con otra mascota?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d21_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d21_2"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mascaant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Describe el (los) tipo(s) de mascota(s) que tengas."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:inputType="textPersonName"
+                    android:id="@+id/d22"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Todos en tu familia están de acuerdo con la adopción?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d23_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d23_2"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tiempocs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Cada cuando visitas al veterinario?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Meses"
+                    android:id="@+id/d24_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 Meses"
+                    android:id="@+id/d24_2"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cada año"
+                    android:id="@+id/d24_3"
+                    />
+
+                <CheckBox
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="No necesario"
+                    android:textSize="10dp"
+                    android:id="@+id/d24_4"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/exst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Existe un miembro de la familia con problemas alérgicos?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d25_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d25_2"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/exsttm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Existe un miembro de la familia con temor a perros o gatos?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d26_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d26_2"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/lugarr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Describe el lugar que habitará la mascota (Dimensiones y características)."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:inputType="textPersonName"
+                    android:id="@+id/d27"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cuidados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Conoces los cuidados que debe tener un perro? (Menciona cuales son)."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:inputType="textPersonName"
+                    android:id="@+id/d28"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/contact_dissr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff872b"
+                android:text="Motivos que se pueden presentarse para continuar con el cuidado de la mascota."
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/tiempoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="¿Cuáles serían las causas que pudieran evitar seguir cuidando a tu perro?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Embarazo"
+                    android:id="@+id/d29_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problemas económicos"
+                    android:id="@+id/d29_2"
+                    />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comportamiento"
+                    android:id="@+id/d29_3"
+                    />
+
+                <CheckBox
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cambio de residencia"
+                    android:id="@+id/d29_4"
+                    />
+
+                <CheckBox
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Enfermedad"
+                    android:id="@+id/d29_5"
+                    />
+
+                <CheckBox
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:id="@+id/d29_6"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/enfrms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Si a tu mascota se le presenta una enfermedad larga, costosa o tediosa ¿podías enfrentarla?"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SI"
+                    android:id="@+id/d30_1"
+                    />
+
+                <CheckBox
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:id="@+id/d30_2"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="¿Cómo podrías resolverlo? (Explica en caso de responder negativamente)."
+                android:inputType="textPersonName"
+                android:textSize="10sp"
+                android:id="@+id/d31"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="¿Qué opinas sobre la Esterilización en perros y gatos? (Explica brevemente)."
+                android:inputType="textPersonName"
+                android:textSize="10sp"
+                android:id="@+id/d32"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Dános tu opinión sobre la venta de mascotas. (Explica brevemente)."
+                android:inputType="textPersonName"
+                android:textSize="10sp"
+                android:id="@+id/d33"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/enfermded"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="LA ADOPCIÓN DE UNA MASCOTA ES UN ACTO DE AMOR PERO TAMBIÉN DE RESPONSABILIDAD, CONSCIENTE DE ELLO, RATIFICO QUE EN CASO DE YA NO PODER TENER A LA MASCOTA, SEA CUAL SEA LA RAZÓN, ME COMPROMETO A ENTREGARLO DE VUELTA A LA ASOCIACIÓN QUE ME LO DIÓ EN ADOPCIÓN, NO ABANDONARLO NI HABLARLE AL ANTIRRÁBICO."
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="224dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="4dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Enviar "
+                android:textAlignment="center"
+                android:textColor="#fff" />
+
+            <TextView
+                    android:id="@+id/enfermded2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TENIENDO EN CUENTA QUE EL ABANDONO NO ES UNA SOLUCIÓN. ASÍ MISMO RATIFICO QUE LOS DATOS PROPORCIONADOS SON VERÍDICOS, Y ASÍ MISMO ACCEDO A QUE EN DADO CASO SE ME HAGA VISITA DOMICILIARIA."
+                    android:textColor="#000000"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:textSize="10sp"
+                    android:typeface="serif" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.BottomNavigationView
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/colorPrimaryDark"
+    design:menu="@menu/menu_navigation" />
+</LinearLayout>

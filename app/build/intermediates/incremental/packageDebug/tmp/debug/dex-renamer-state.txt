@@ -1,0 +1,4 @@
+#Sun Dec 09 20:02:00 CST 2018
+base.0=C\:\\Users\\juan_\\Downloads\\HuellitasMTYfinal\\HuellitasMTYf\\HuellitasMTYf\\HuellitasMTY\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

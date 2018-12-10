@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+
+    android:id="@+id/gatos"
+    android:title="@string/gatos"
+    android:icon="@drawable/ic_icons8_gato_50"/>
+    <item
+        android:id="@+id/Perros"
+        android:title="@string/Perros"
+        android:icon="@drawable/ic_icons8_perro_50"/>
+
+    <item
+        android:id="@+id/Reportes"
+        android:title="@string/reportes"
+        android:icon="@drawable/reportes"/>
+
+    <item
+        android:id="@+id/Contact1"
+        android:title="@string/Contacto"
+        android:icon="@drawable/cita"/>
+</menu>
+
